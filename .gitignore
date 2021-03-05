@@ -35,3 +35,8 @@ and the repository exists.
 ssh-keygen -t rsa -C "youremail@example.com" 生成
 
 cat ~/.ssh/id_rsa.pub 以下为显示的密钥（示例）： ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDxi0FE/QMSjVSLKmHC0gNkVqjt59LdTkL1+18yii8d8e2vw0RulPnwE3mZHrSaedv4uig6QYw4hZFmAssrX239nmHG6YgeTrIH+hGBBe2K88wNfeiEhpwj9FPh1laXKEsY8MW4IF1zYJmKdLrYIc/tbve/Ft1MwGYLB0Y/jjv6l+ZBWf2TocmbnozVfl42CfzN0niRRsBMOw+gVW0Qh6Ak/HuJbGmAevinl062/UR6tDHpakee46rldL8R5P63BMRhg7RVdt your_email@example.com
+
+
+
+
+#npm install express
