@@ -16,3 +16,22 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+
+新电脑，初次安装git环境，使用git clone 提示没有权限，请在本机生成SSH密码并登录 GitHub 后台添加 ssh 密钥再重试。
+
+-----------------------------
+
+ git clone git@github.com:synctimes163/Express-WebApiUtil.git
+Cloning into 'Express-WebApiUtil'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+-----------------------------
+
+
+ssh-keygen -t rsa -C "youremail@example.com" 生成
+
+cat ~/.ssh/id_rsa.pub 以下为显示的密钥（示例）： ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDxi0FE/QMSjVSLKmHC0gNkVqjt59LdTkL1+18yii8d8e2vw0RulPnwE3mZHrSaedv4uig6QYw4hZFmAssrX239nmHG6YgeTrIH+hGBBe2K88wNfeiEhpwj9FPh1laXKEsY8MW4IF1zYJmKdLrYIc/tbve/Ft1MwGYLB0Y/jjv6l+ZBWf2TocmbnozVfl42CfzN0niRRsBMOw+gVW0Qh6Ak/HuJbGmAevinl062/UR6tDHpakee46rldL8R5P63BMRhg7RVdt your_email@example.com
