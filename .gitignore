@@ -40,3 +40,4 @@ cat ~/.ssh/id_rsa.pub 以下为显示的密钥（示例）： ssh-rsa AAAAB3NzaC
 
 
 #npm install express
+#express --view=pug myapp
