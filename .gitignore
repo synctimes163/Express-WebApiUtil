@@ -18,7 +18,7 @@ bin-release/
 # information for Eclipse / Flash Builder.
 
 
-新电脑，初次安装git环境，使用git clone 提示没有权限，请在本机生成SSH密码并登录 GitHub 后台添加 ssh 密钥再重试。
+新电脑，初次安装git环境，使用git clone 提示没有权限，请在本机生成SSH密码并登录 GitHub 后台添加 ssh 密钥再重试
 
 -----------------------------
 
